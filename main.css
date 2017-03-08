@@ -1,0 +1,55 @@
+body, html {
+  background: url(img/silverware.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  align-self: flex-start;
+  background-color: #989997;
+  color: #686811;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px;
+  padding: 0;
+
+}
+
+span {
+  font-weight: bold;
+}
+
+.border {
+  border-bottom: 1px solid #000;
+}
+
+.center {
+  align-self: center;
+}
+
+.comments div {
+  background-color: #d8d82d;
+  margin: 10px;
+  width: 95%;
+}
+
+.directions p {
+  font-style: italic;
+}
+
+.header, .ingredients, .directions, .comments, .link {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.header ul, .ingredients ul, .directions ol ul, .link ul {
+  list-style-type: none;
+  padding: 0 10px;
+}
